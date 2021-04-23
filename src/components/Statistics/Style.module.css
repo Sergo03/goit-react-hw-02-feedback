@@ -1,0 +1,22 @@
+li {
+  list-style-type: none;
+}
+.list_options {
+  padding: 0;
+  margin: 0;
+}
+.good {
+  color: rgb(5, 228, 5);
+}
+.neutral {
+  color: blue;
+}
+.bad {
+  color: red;
+}
+.total {
+  color: rgb(255, 1, 221);
+}
+.positivePercentage {
+  color: rgb(131, 99, 99);
+}
