@@ -9,14 +9,14 @@ const Section = ({ title, children }) => {
         <section>
             <h2>{title}</h2>
             {children}
-            </section>
-     )
+        </section>
+    )
 
 }
 
 Section.propsTypes = {
     title: PropsTypes.string.isRequired,
-    children:PropsTypes.object.isRequired
+    children: PropsTypes.object.isRequired
 }
 
 export default Section;
